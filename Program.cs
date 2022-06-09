@@ -9,7 +9,7 @@ double score = 0;
 Console.WriteLine("\n1. What is the bands name?");
 Console.Write("Q1 Answer: ");
 string firstQuestion = Console.ReadLine().ToLower();
-if (firstQuestion == "ho-kago tea time" || firstQuestion == "houkago tea time" || firstQuestion == "after school tea time") {
+if (firstQuestion == "ho-kago tea time" || firstQuestion == "hokago tea time" || firstQuestion == "after school tea time") {
     Console.WriteLine("Correct");
     score++;
 } else {
